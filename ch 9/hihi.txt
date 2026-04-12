@@ -1,0 +1,1 @@
+this is AJ and now im using append instead of write 

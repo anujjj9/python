@@ -1,0 +1,9 @@
+l = [1, 2 ,3, 4, 55,33]
+for i in range(len(l)-1):
+    if l[i] > l[i+1]:
+        continue
+    else:
+        print("your list is not sorted")
+        break
+else:
+    print("the list is sorted")

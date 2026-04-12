@@ -1,0 +1,131 @@
+
+
+# Python Practice Questions - Complete Guide
+
+---
+
+## SECTION 1: BASICS (Questions 1-15)
+
+1. Reverse a string without using slicing
+2. Check if a string is a palindrome
+3. Count vowels and consonants in a string
+4. Find the second largest number in a list
+5. Remove duplicates from a list
+6. Find frequency of each character in a string
+7. Swap two numbers without using third variable
+8. Find common elements in two lists
+9. Check if a number is prime
+10. Print Fibonacci series up to n terms
+11. Find factorial using recursion
+12. Check if a number is Armstrong
+13. Sort a list without using sort()
+14. Find maximum and minimum without built-in functions
+15. Count words in a sentence
+
+---
+
+## SECTION 2: INTERMEDIATE (Questions 16-30)
+
+16. Find missing number in a list (1-n)
+17. Merge two dictionaries
+18. Flatten a nested list
+19. Find all pairs with given sum
+20. Count occurrence of each element in list
+21. Find intersection of two lists
+22. Remove all even numbers from list
+23. Convert list to dictionary
+24. Find longest word in a sentence
+25. Check if two strings are anagrams
+26. Rotate a list by k positions
+27. Find duplicates in a list
+28. Find first non-repeating character
+29. Create a simple calculator using functions
+30. Generate random password
+
+---
+
+## SECTION 3: FILE HANDLING (Questions 31-35)
+
+31. Read a file and count words
+32. Count lines, words, characters in a file
+33. Copy content from one file to another
+34. Find most frequent word in file
+35. Append data to a file
+
+---
+
+## SECTION 4: OBJECT-ORIENTED PROGRAMMING (Questions 36-50) ⭐ VERY IMPORTANT
+
+### Basic OOP
+
+36. Create a class Student with name and marks
+37. Add a method to calculate grade
+38. Create a class BankAccount with deposit & withdraw
+39. Use constructor to initialize values
+40. Create multiple objects and print data
+
+### Encapsulation
+
+41. Create private variable and access using getter/setter
+42. Add validation in setter (marks 0-100)
+43. Prevent negative balance in bank class
+
+### Inheritance
+
+44. Create Animal → Dog class (inherit method)
+45. Add method overriding in child class
+46. Create multilevel inheritance example
+
+### Abstraction
+
+47. Create base class with NotImplementedError
+48. Force child class to implement method
+
+### Polymorphism
+
+49. Create multiple classes with same method (sound())
+50. Use loop to call same method on different objects
+
+---
+
+## SECTION 5: BONUS MUST-DO QUESTIONS (Questions 51-60) ⭐ VERY IMPORTANT
+
+### Data-Oriented Questions (51-55)
+
+51. Find mean, median, and mode of a list
+    - Core for statistics & ML preprocessing
+
+52. Normalize a list using Min-Max scaling
+    - Formula: x' = (x - min) / (max - min)
+    - Used in ML preprocessing
+
+53. Standardize a list (Z-score normalization)
+    - Formula: z = (x - μ) / σ
+    - Important for ML models
+
+54. Remove null / empty values from a list
+    - Simulates real-world messy data handling
+
+55. Handle outliers in a list (remove values beyond threshold)
+    - Important for data cleaning in ML
+
+### Dictionary & Frequency Questions (56-58)
+
+56. Group elements by frequency
+    - Example: [1,2,1,3,2] → {1:[0,2], 2:[1,4], 3:[3]}
+
+57. Sort dictionary by values (descending)
+    - Useful for ranking and sorting problems
+
+58. Find top k frequent elements in a list
+    - Common interview + ML preprocessing problem
+
+### Logic & Real-world Questions (59-60)
+
+59. Implement a simple log analyzer
+    - Input: list of logs
+    - Output: most frequent error type
+
+60. Convert a list of dictionaries into a single dictionary
+    - Example: [{"a":1}, {"b":2}] → {"a":1, "b":2}
+    - Useful for data merging

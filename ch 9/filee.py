@@ -1,0 +1,7 @@
+# p = open('file.py')
+# print(p.read())
+r = open("hihi.txt" , 'a')
+r.write("and now im using append instead of write ")
+r.close()
+w = open("hehee.txt" , 'a')
+w.write("")
