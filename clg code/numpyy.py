@@ -11,6 +11,9 @@ print(new_arr)
 new_arr3 = np.delete(arr, 1)
 print(new_arr3)
 new_arr3[1] = 20
+print(new_arr3)
+
+
 
 
 
