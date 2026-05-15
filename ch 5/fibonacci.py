@@ -5,7 +5,7 @@ def fibonacci(n):
     
     # Generate n Fibonacci numbers by adding previous two numbers
     for i in range(n):
-        print(a, end=" ")
+        print(a, end=" ")  #end ka mtlb h "/n" matlab print krne k baad next print same line me hoga
         c = a + b  # Next Fibonacci number
         a = b      # Shift values forward
         b = c

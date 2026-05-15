@@ -1,7 +1,7 @@
 def heterogram(word):
     word = word.lower()
 
-    if len(word) == len(set(word)):
+    if len(word) == len(set(word)):    #set(word) will remove duplicates and return unique characters
         print("Heterogram")
     else:
         print("Not a Heterogram")
