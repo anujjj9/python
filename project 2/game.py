@@ -1,33 +1,22 @@
-"""
-Number Guessing Game
-
-A simple interactive game where the user guesses a randomly generated number.
-The program provides hints to guide the user towards the correct answer.
-"""
-
 import random
 
-# Generate a random number between 1 and 11 for the user to guess
-num = random.randint(1, 11)
+print("Let's start the game!!!!!")
 
-# Counter to track the number of guesses made by the user
-tries = 0
+secret_number = random.randint(1,100)
+attempts = 0
 
-# Main game loop that continues until the correct number is guessed
 while True:
-    # Get user input for their guess
-    guess = int(input("Please guess the number: "))
-    
-    # Increment tries counter with each guess
-    tries += 1
-    
-    # Check if the guess is correct
-    if num == guess:
-        print(f"You're right! You guessed it in {tries} tries.")
+
+    guess = int(input("Enter a number: "))
+    attempts += 1
+
+    if guess < secret_number:
+        print("Go higher!")
+
+    elif guess > secret_number:
+        print("Go lower!")
+
+    else:
+        print("Correct!!")
+        print("Attempts:", attempts)
         break
-    # Provide hint if guess is too large
-    elif num < guess:
-        print("Go smaller.")
-    # Provide hint if guess is too small
-    elif num > guess:
-        print("Go bigger.")
